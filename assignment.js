@@ -1,22 +1,25 @@
+//https://github.com/Rifat-ahmed991/assignment-3
 
+/** A js program for convert kilometer into meter */
 function kilometerToMeter(kilometer) {
     var meter = kilometer * 1000;
     return meter;
 }
-var amrmeter = kilometerToMeter(56);
-console.log(amrmeter)
+var distance = kilometerToMeter(56);
+console.log(distance)
 
 
 
-
+/** A js program for calculating clock, phone and laptop price like calculator */
 function budgetCalculator(clock,phone,laptop){
-    var result = clock*50+phone*100+laptop*500;
+    var result = clock*50 + phone*100 + laptop*500;
     return result;
 }
-var kinbo = budgetCalculator(10,50,30);
-console.log(kinbo)
+var buy = budgetCalculator(10,50,30);
+console.log(buy)
 
 
+/** A js program for calculating hotel rent according to day */
 function hotelCost(day){
     var rent = 0;
     if(day<=10){
@@ -35,12 +38,12 @@ function hotelCost(day){
     }
     return rent ;
 }
-var cost = hotelCost(60)
-console.log(cost)
+var totalCost = hotelCost(60)
+console.log(totalCost)
 
 
 
-
+/** A js programm for finding longest name  */
 function megaFriend(name) {
   var long = name[0];
   for (i = 0; i < name.length; i++) {
@@ -51,8 +54,8 @@ function megaFriend(name) {
   return long;
 }
 
-var bondhu = ["abul", "musfiqur", "shakib"];
-console.log(megaFriend(bondhu));
+var Friend = ["abul", "musfiqur", "shakib"];
+console.log(megaFriend(Friend));
     
 
 
